@@ -6,7 +6,7 @@ const router = express.Router();
 
 // router.use(expressValidator());
 
-router.get('/register', (req, res) => {
+router.get('/', (req, res) => {
     res.render('index');
 });
 
